@@ -7,12 +7,9 @@ CREATE TABLE Line
   NUM_STATIONS INT
 );
 
-INSERT INTO Line VALUES ('Blue','A','Light Rail',48.5,44);
-INSERT INTO Line VALUES ('Red','B','Rapid Transit',14.7,14);
-INSERT INTO Line VALUES ('Green','C','Light Rail',19.3,14);
-INSERT INTO Line VALUES ('Purple','D','Rapid Transit',5.1,8);
-INSERT INTO Line VALUES ('Gold','E','Light Rail',22,29);
-INSERT INTO Line VALUES ('Pink','K','Light Rail',5.9,7);
+INSERT INTO Line VALUES ('Blue','A','Light Rail',48.5,44),('Red','B','Rapid Transit',14.7,14),
+                        ('Green','C','Light Rail',19.3,14),('Purple','D','Rapid Transit',5.1,8),
+                        ('Gold','E','Light Rail',22,29),('Pink','K','Light Rail',5.9,7);
 
 CREATE TABLE Station
 (
