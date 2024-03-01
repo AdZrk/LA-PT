@@ -7,9 +7,9 @@ CREATE TABLE Line
   NUM_STATIONS INT
 );
 
-INSERT INTO Line VALUES ('Blue','A','Light Rail',48.5,44),('Red','B','Rapid Transit',14.7,14),
+INSERT INTO Line VALUES ('Blue','A','Light Rail',48.5,51),('Red','B','Rapid Transit',14.7,14),
                         ('Green','C','Light Rail',19.3,16),('Purple','D','Rapid Transit',5.1,15),
-                        ('Gold','E','Light Rail',22,29),('Pink','K','Light Rail',5.9,13);
+                        ('Gold','E','Light Rail',22,29),('Pink','K','Light Rail',5.9,15);
 
 CREATE TABLE Station
 (
@@ -18,17 +18,19 @@ CREATE TABLE Station
   NUM_IN_LINE  INT
 );
 
-INSERT INTO Station VALUES  ('APU/Citrus College','A',1),('Azusa Downtown','A',2),('Irwindale','A',3),('Duarte/City of Hope','A',4),
-                            ('Monrovia','A',5),('Arcadia','A',6),('Sierra Madre Villa','A',7),('Allen','A',8),
-                            ('Lake','A',9),('Memorial Park','A',10),('Del Mar','A',11),('Fillmore','A',12),
-                            ('South Pasadena','A',13),('Highland Park','A',14),('Southwest Museum','A',15),('Heritage Square','A',16),
-                            ('Lincoln/Cypress','A',17),('Chinatown','A',18),('Union Station','A',19),('Little Tokyo/Arts District','A',20),
-                            ('Historic Broadway','A',21),('Grand Avenue Arts/Bunker Hill','A',22),('7th Street/Metro Center','A',23),('Pico','A',24),
-                            ('Grand/LATTC','A',25),('San Pedro Street','A',26),('Washington','A',27),('Vernon','A',28),
-                            ('Slauson','A',29),('Florence','A',30),('Firestone','A',31),('103rd Street/Watts Towers','A',32),
-                            ('Willowbrook/Rosa Parks Station','A',33),('Compton','A',34),('Artesia','A',35),('Del Amo','A',36),
-                            ('Wardlow','A',37),('Willow Street','A',38),('Pacific Coast Highway','A',39),('Anaheim Street','A',40),
-                            ('5th Street','A',41),('1st Street','A',42),('Downtown Long Beach','A',43),('Pacific Avenue','A',44);
+INSERT INTO Station VALUES  ('Citrus Avenue','A',1),('Glendora','A',2),('San Dimas','A',3),('La Verne','A',4),
+                            ('Pomona Metrolink','A',5),('Claremont Village','A',6),('Montclair Metrolink','A',7),
+                            ('APU/Citrus College','A',8),('Azusa Downtown','A',9),('Irwindale','A',10),('Duarte/City of Hope','A',11),
+                            ('Monrovia','A',12),('Arcadia','A',13),('Sierra Madre Villa','A',14),('Allen','A',15),
+                            ('Lake','A',16),('Memorial Park','A',17),('Del Mar','A',18),('Fillmore','A',19),
+                            ('South Pasadena','A',20),('Highland Park','A',21),('Southwest Museum','A',22),('Heritage Square','A',23),
+                            ('Lincoln/Cypress','A',24),('Chinatown','A',25),('Union Station','A',26),('Little Tokyo/Arts District','A',27),
+                            ('Historic Broadway','A',28),('Grand Avenue Arts/Bunker Hill','A',29),('7th Street/Metro Center','A',30),('Pico','A',31),
+                            ('Grand/LATTC','A',32),('San Pedro Street','A',33),('Washington','A',34),('Vernon','A',35),
+                            ('Slauson','A',36),('Florence','A',37),('Firestone','A',38),('103rd Street/Watts Towers','A',39),
+                            ('Willowbrook/Rosa Parks Station','A',40),('Compton','A',41),('Artesia','A',42),('Del Amo','A',43),
+                            ('Wardlow','A',44),('Willow Street','A',45),('Pacific Coast Highway','A',46),('Anaheim Street','A',47),
+                            ('5th Street','A',48),('1st Street','A',49),('Downtown Long Beach','A',50),('Pacific Avenue','A',51);
 INSERT INTO Station VALUES  ('North Hollywood','B',1),('Universal City/Studio City','B',2),('Hollywood/Highland','B',3),('Hollywood/Vine','B',4),
                             ('Hollywood/Western','B',5),('Vermont/Sunset','B',6),('Vermont/Santa Monica','B',7),('Vermont/Beverly','B',8),
                             ('Wilshire/Vermont','B',9),('Westlake/MacArthur Park','B',10),('7th Street/Metro Center','B',11),('Pershing Square','B',12),
@@ -52,4 +54,4 @@ INSERT INTO Station VALUES  ('Atlantic','E',1),('East LA Civic Center','E',2),('
 INSERT INTO Station VALUES  ('Expo/Crenshaw','K',1),('Martin Luther King Jr.','K',2),('Leimert Park','K',3),('Hyde Park','K',4),
                             ('Fairview Heights','K',5),('Downtown Inglewood','K',6),('Westchester/Veterans','K',7),('LAX/Metro Transit Center','K',8),
                             ('Aviation/Century','K',9),('Mariposa','K',10),('El Segundo','K',11),('Douglas','K',12),
-                            ('Redondo Beach','K',13);
+                            ('Redondo Beach','K',13),('South Bay Galleria','K',14),('Torrance Transit Center','K',15);
