@@ -8,7 +8,7 @@ CREATE TABLE Line
 );
 
 INSERT INTO Line VALUES ('Blue','A','Light Rail',48.5,44),('Red','B','Rapid Transit',14.7,14),
-                        ('Green','C','Light Rail',19.3,16),('Purple','D','Rapid Transit',5.1,8),
+                        ('Green','C','Light Rail',19.3,16),('Purple','D','Rapid Transit',5.1,15),
                         ('Gold','E','Light Rail',22,29),('Pink','K','Light Rail',5.9,7);
 
 CREATE TABLE Station
@@ -37,3 +37,7 @@ INSERT INTO Station VALUES  ('Norwalk','C',1),('Lakewood Boulevard','C',2),('Lon
                             ('Avalon','C',5),('Harbor Freeway','C',6),('Vermont/Athens','C',7),('Crenshaw','C',8),
                             ('Hawthorne/Lennox','C',9),('Aviation/LAX','C',10),('Aviation/Century','C',11),('LAX/Metro Transit Center','C',12),
                             ('Mariposa','C',13),('El Segundo','C',14),('Douglas','C',15),('Redondo Beach','C',16);
+INSERT INTO Station VALUES  ('Westwood/VA Hospital','D',1),('Westwood/UCLA','D',2),('Century City/Constellation','D',3),('Wilshire/Rodeo','D',4),
+                            ('Wilshire/La Cienega','D',5),('Wilshire/Fairfax','D',6),('Wilshire/La Brea','D',7),('Wilshire/Western','D',8),
+                            ('Wilshire/Normandie','D',9),('Wilshire/Vermont','D',10),('Westlake/MacArthur Park','D',11),('7th Street/Metro Center','D',12),
+                            ('Pershing Square','D',13),('Civic Center/Grand Park','D',14),('Union Station','D',15);
