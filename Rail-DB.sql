@@ -29,3 +29,7 @@ INSERT INTO Station VALUES  ('APU/Citrus College','A',1),('Azusa Downtown','A',2
                             ('Willowbrook/Rosa Parks Station','A',33),('Compton','A',34),('Artesia','A',35),('Del Amo','A',36),
                             ('Wardlow','A',37),('Willow Street','A',38),('Pacific Coast Highway','A',39),('Anaheim Street','A',40),
                             ('5th Street','A',41),('1st Street','A',42),('Downtown Long Beach','A',43),('Pacific Avenue','A',44);
+INSERT INTO Station VALUES  ('North Hollywood','B',1),('Universal City/Studio City','B',2),('Hollywood/Highland','B',3),('Hollywood/Vine','B',4),
+                            ('Hollywood/Western','B',5),('Vermont/Sunset','B',6),('Vermont/Santa Monica','B',7),('Vermont/Beverly','B',8),
+                            ('Wilshire/Vermont','B',9),('Westlake/MacArthur Park','B',10),('7th Street/Metro Center','B',11),('Pershing Square','B',12),
+                            ('Civic Center/Grand Park','B',13),('Union Station','B',14);
