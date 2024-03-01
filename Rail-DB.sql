@@ -9,7 +9,7 @@ CREATE TABLE Line
 
 INSERT INTO Line VALUES ('Blue','A','Light Rail',48.5,44),('Red','B','Rapid Transit',14.7,14),
                         ('Green','C','Light Rail',19.3,16),('Purple','D','Rapid Transit',5.1,15),
-                        ('Gold','E','Light Rail',22,29),('Pink','K','Light Rail',5.9,7);
+                        ('Gold','E','Light Rail',22,29),('Pink','K','Light Rail',5.9,13);
 
 CREATE TABLE Station
 (
@@ -49,3 +49,7 @@ INSERT INTO Station VALUES  ('Atlantic','E',1),('East LA Civic Center','E',2),('
                             ('La Cienega/Jefferson','E',21),('Culver City','E',22),('Palms','E',23),('Westwood/Rancho Park','E',24),
                             ('Expo/Sepulveda','E',25),('Expo/Bundy','E',26),('26th Street/Bergamot','E',27),('17th Street/SMC','E',28),
                             ('Downtown Santa Monica','E',29);
+INSERT INTO Station VALUES  ('Expo/Crenshaw','K',1),('Martin Luther King Jr.','K',2),('Leimert Park','K',3),('Hyde Park','K',4),
+                            ('Fairview Heights','K',5),('Downtown Inglewood','K',6),('Westchester/Veterans','K',7),('LAX/Metro Transit Center','K',8),
+                            ('Aviation/Century','K',9),('Mariposa','K',10),('El Segundo','K',11),('Douglas','K',12),
+                            ('Redondo Beach','K',13);
