@@ -41,3 +41,11 @@ INSERT INTO Station VALUES  ('Westwood/VA Hospital','D',1),('Westwood/UCLA','D',
                             ('Wilshire/La Cienega','D',5),('Wilshire/Fairfax','D',6),('Wilshire/La Brea','D',7),('Wilshire/Western','D',8),
                             ('Wilshire/Normandie','D',9),('Wilshire/Vermont','D',10),('Westlake/MacArthur Park','D',11),('7th Street/Metro Center','D',12),
                             ('Pershing Square','D',13),('Civic Center/Grand Park','D',14),('Union Station','D',15);
+INSERT INTO Station VALUES  ('Atlantic','E',1),('East LA Civic Center','E',2),('Maravilla','E',3),('Indiana','E',4),
+                            ('Soto','E',5),('Mariachi Plaza','E',6),('Pico/Aliso','E',7),('Little Tokyo/Arts District','E',8),
+                            ('Historic Broadway','E',9),('Grand Avenue Arts/Bunker Hill','E',10),('7th Street/Metro Center','E',11),('Pico','E',12),
+                            ('LATTC/Ortho Institute','E',13),('Jefferson/USC','E',14),('Expo Park/USC','E',15),('Expo/Vermont','E',16),
+                            ('Expo/Western','E',17),('Expo/Crenshaw','E',18),('Farmdale','E',19),('Expo/La Brea','E',20),
+                            ('La Cienega/Jefferson','E',21),('Culver City','E',22),('Palms','E',23),('Westwood/Rancho Park','E',24),
+                            ('Expo/Sepulveda','E',25),('Expo/Bundy','E',26),('26th Street/Bergamot','E',27),('17th Street/SMC','E',28),
+                            ('Downtown Santa Monica','E',29);
