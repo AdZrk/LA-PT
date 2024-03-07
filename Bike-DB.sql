@@ -25,9 +25,24 @@ INSERT INTO Station (ST1,ST2,DOCKS) VALUES
     ('Spring','College',15),('New High','Ord',15),('2nd','Figueroa',18),('Hope','1st',16),('Grand','Temple',14),
     ('Figueroa','4th',15),('Grand','3rd',14),('2nd','Hill',17),('Main','1st',29),('Los Angeles','Temple',30),
     ('Broadway','3rd',23),('Spring','3rd',14),('Main','Winston',12),('3rd','San Pedro',15),('San Pedro','Winston',11),
-    ('1st','Central',28),('Traction','Rose',24),(
+    ('1st','Central',28),('Traction','Rose',24),('Temple','Vignes',14),('3rd','Santa Fe',20),('1st','Utah',18),
+    ('5th','Hewitt',14),('Factory Pl','Alameda',19),('Willow','Mateo',19),('Industrial','Mateo',14),('Imperial','7th',19),
+    ('Stanford','12th',15),('18th','San Pedro',14),('Figueroa','Pico',17),('Figueroa','11th',16),('Figueroa','9th',15),
+    ('Figueroa','8th',23),('7th','Flower',29),('Hope','6th',31),('5th','Grand',23),('Pico','Flower',34),
+    ('Hope','11th',29),('Hope','Olympic',22),('Grand','8th',18),('Grand','Olympic',19),('Olive','8th',29),
+    ('7th','Hill',19),('Grand','14th',15),('12th','Hill',19),('Broadway','11th',19),('Broadway','9th',15),
+    ('Main','8th',8),('7th','Spring',15),('Main','9th',15),('9th','Los Angeles',15),('8th','Wall',15),
+    ('11th','Maple',15),('23rd','Flower',22),('Hill','Washington',20),('Grand','Washington',15),('25th','Vermont',8),
+    ('Ellendale Pl','Adams',12),('Severance','Adams',15),('29th','Ellendale',19),('Hoover','29th',15),('28th','University',10),
+    ('28th','Figueroa',15),('University','30th',9),('Hoover','32nd',15),('University','Hoover',14),('32nd','Figueroa',14),
+    ('Figueroa','Jefferson',8),('Figueroa','McCarthy',15),('Vermont','Exposition',14);
+INSERT INTO Station (ST1,ST2,DOCKS) VALUES 
+    
 INSERT INTO Station VALUES 
     ('Lankershim','Chandler','North Hollywood Station',20),('Lankershim','McCormick','North Hollywood Plaza',9),('Sunset','Maltman','Sunset Triangle Plaza',15),
     ('Sunset','Mohawk','Mohawk Bend',10),('Wilshire','Western','Wiltern',11),('James M Wood','Western','Koreatown Plaza',24),
     ('Westlake','Wilshire','Westlake/MacArthur Park Station',15),('1st','2nd','Vista Hermosa Park',16),('Figueroa','Diamond','Figueroa Plaza',14),
-    ('Alameda','Los Angeles','Union Station West Portal',30),('Vignes','Cesar E Chavez','Union Station East Portal',17),(
+    ('Alameda','Los Angeles','Union Station West Portal',30),('Vignes','Cesar E Chavez','Union Station East Portal',17),('Alameda','Bay','Row DTLA',18),
+    ('Olive','6th','Pershing Square',22),('Grand','23rd','Grand/LATTC',12),('Figueroa','Martin Luther King Jr','Expo Park/LAFC',15),
+INSERT INTO Station (ST1,ALTNAME,DOCKS) VALUES 
+    
