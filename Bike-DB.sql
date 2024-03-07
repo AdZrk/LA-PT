@@ -37,12 +37,25 @@ INSERT INTO Station (ST1,ST2,DOCKS) VALUES
     ('28th','Figueroa',15),('University','30th',9),('Hoover','32nd',15),('University','Hoover',14),('32nd','Figueroa',14),
     ('Figueroa','Jefferson',8),('Figueroa','McCarthy',15),('Vermont','Exposition',14);
 INSERT INTO Station (ST1,ST2,DOCKS) VALUES 
-    
+    ('Broxton','Weyburn',15),('Glendon','Kinross',9),('Purdue','Santa Monica',20),('Mississippi','Sawtelle',9),('Arizona','16th',11),
+    ('Barrington','National',16),('Sepulveda','National',16),('Westwood','National',11),('Rose','Overland',7),('National','Motor',15),
+    ('Palms','Motor',9),('Motor','Regent',11),('Palms','Kelton',9),('Sepulveda','Palms',9),('Sepulveda','Charnock',8),
+    ('Durango','Venice',11),('Bagley','Venice',17),('Venice','Hughes',14),('Venice','Motor',11),('Venice','Glendon',10),
+    ('Sepulveda','Venice',17),('Venice','Sawtelle',11),('McLaughlin','Venice',13),('Venice','Inglewood',8),('Venice','Colonial',11),
+    ('Venice','Beethoven',8),('Venice','Walgrove',17),('Venice','Lincoln',16),('Venice','Abbot Kinney',9),('Pacific','Venice',13),
+    ('Ocean Front Walk','Venice',11),('Windward','Main',21),('Abbot Kinney','Cadiz',24),('7th','Westminster',15),('California','Lincoln',30),
+    ('Rose','7th',21),('Rose','Rennie',21),('Rose','Main',23),('Ocean Front Walk','Navy',26),('Stanford','Washington',10),
+    ('Washington','Abbot Kinney',16),('Alla','Maxella',12),('Maxella','Glencoe',12),('Alla','Glencoe',12),('Culver','Centinela',12),
+    ('Inglewood','Braddock',11),('Inglewood','Ballona',12),('Lucerne','Sepulveda',11),('Centinela','Lucile',8),('Westlawn','Beatrice',14),
+    ('McConnell','Runway',20),('Seabluff','Runway',10),('Vista Del Mar','Culver',8);
 INSERT INTO Station VALUES 
     ('Lankershim','Chandler','North Hollywood Station',20),('Lankershim','McCormick','North Hollywood Plaza',9),('Sunset','Maltman','Sunset Triangle Plaza',15),
     ('Sunset','Mohawk','Mohawk Bend',10),('Wilshire','Western','Wiltern',11),('James M Wood','Western','Koreatown Plaza',24),
     ('Westlake','Wilshire','Westlake/MacArthur Park Station',15),('1st','2nd','Vista Hermosa Park',16),('Figueroa','Diamond','Figueroa Plaza',14),
     ('Alameda','Los Angeles','Union Station West Portal',30),('Vignes','Cesar E Chavez','Union Station East Portal',17),('Alameda','Bay','Row DTLA',18),
     ('Olive','6th','Pershing Square',22),('Grand','23rd','Grand/LATTC',12),('Figueroa','Martin Luther King Jr','Expo Park/LAFC',15),
-INSERT INTO Station (ST1,ALTNAME,DOCKS) VALUES 
-    
+    ('Charles E Young','Covel Steps','Drake Stadium',20),('Westwood Pl','Westwood Pl','Gateway Plaza',19),('Portola Pl','Portola Pl','Perloff Hall',20),
+    ('Weyburn','Weyburn','Weyburn Terrace',12),('Colorado','5th','Downtown Santa Monica E Line Station',18),('Colorado','17th','17th St/SMC E Line Station',18),
+    ('Exposition','Bundy','Expo/Bundy E Line Station',19),('Exposition','Sepulveda','Expo/Sepulveda E Line Station',15),('Exposition','Westwood','Westwood/Rancho Park E Line Station',19),
+    ('Sawtelle','Stanwood','University Village (Sawtelle Blvd)',12),('Palms','Exposition','Palms E Line Station',14),('Playa Vista','Bay Park','Playa Vista Library',17),
+    ('Ballona Creek','Culver','Toes Beach at Culver Blvd',6),('Marine','Marine','Dockweiler Beach at Imperial Hwy',13);
