@@ -12,10 +12,12 @@ CREATE TABLE Line
 (
     ROUTE    INT,
     T1       VARCHAR2(30),
-    T1LOC    VARCHAR2(50),
+    T1X      VARCHAR2(50),
     T2       VARCHAR2(30),
-    T2LOC    VARCHAR2(50),
+    T2X      VARCHAR2(50),
     VIA      VARCHAR2(50),
     AGENCY   VARCHAR2(30)
 );
 
+INSERT INTO Line (ROUTE,T1,T1X,T2,T2X,VIA) VALUES 
+    
