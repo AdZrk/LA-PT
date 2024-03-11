@@ -12,6 +12,14 @@ INSERT INTO Line VALUES ('Antelope Valley',76.6,13),('Inland Empire-Orange Count
 CREATE TABLE Station
 (
     NAME         VARCHAR2(30),
+    LOC          VARCHAR2(20),
     LINE_ABBR    VARCHAR2(5),
-    NUM_IN_LINE  INT
+    NUM_IN_LINE  INT AUTO_INCREMENT
 );
+
+INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES 
+    ('Lancaster','Lancaster','AV'),('Palmdale','Palmdale','AV'),('Vincent Grade/Acton','Acton','AV'),('Vista Canyon','Santa Clarita','AV'),
+    ('Via Princessa','Santa Clarita','AV'),('Santa Clarita','Santa Clarita','AV'),('Newhall','Santa Clarita','AV'),('Sylmar/San Fernando','Sylmar','AV'),
+    ('Sun Valley','Sun Valley','AV'),('Burbank Airport-North','Burbank','AV'),('Downtown Burbank','Burbank','AV'),('Glendale','Glendale','AV'),
+    ('L.A. Union Station','Los Angeles','AV');
+ALTER TABLE Station AUTO_INCREMENT = 1;
