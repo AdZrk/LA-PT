@@ -52,3 +52,9 @@ INSERT INTO Station (NAME,LOC,EXPRESS,LINE_ABBR) VALUES
     ('Fontana','Fontana','No','SB'),('Rialto','Rialto','No','SB'),('San Bernardino-Depot','San Bernardino','Yes','SB'),
     ('San Bernardino-Downtown','San Bernardino','No','SB'),('Redlands-Downtown','Redlands','Yes','SB');
 ALTER TABLE Station AUTO_INCREMENT = 1;
+INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES 
+    ('Ventura-East','Ventura','VC'),('Oxnard','Oxnard','VC'),('Camarillo','Camarillo','VC'),
+    ('Moorpark','Moorpark','VC'),('Simi Valley','Simi Valley','VC'),('Chatsworth','Chatsworth','VC'),
+    ('Northridge','Northridge','VC'),('Van Nuys','Van Nuys','VC'),('Burbank Airport-South','Burbank','VC'),
+    ('Downtown Burbank','Burbank','VC'),('Glendale','Glendale','VC'),('L.A. Union Station','Los Angeles','VC');
+ALTER TABLE Station AUTO_INCREMENT = 1;
