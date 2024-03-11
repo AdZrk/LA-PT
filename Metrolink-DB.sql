@@ -64,3 +64,6 @@ INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES
     ('Riverside-La Sierra','Riverside','91/PV'),('Riverside-Downtown','Riverside','91/PV'),('Riverside-Hunter Park/UCR','Riverside','91/PV'),
     ('Moreno Valley/March Field','Moreno Valley','91/PV'),('Perris-Downtown','Perris','91/PV'),('Perris-South','Perris','91/PV');
 ALTER TABLE Station AUTO_INCREMENT = 1;
+INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES 
+    ('San Bernardino-Downtown','San Bernardino','Arrow'),('San Bernardino-Tippecanoe','San Bernardino','Arrow'),
+    ('Redlands-Esri','Redlands','Arrow'),('Redlands-Downtown','Redlands','Arrow'),('Redlands-University','Redlands','Arrow');
