@@ -31,3 +31,10 @@ INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES
     ('San Juan Capistrano','San Juan Capistrano','IE-OC'),('San Clemente','San Clemente','IE-OC'),('San Clemente Pier','San Clemente','IE-OC'),
     ('Oceanside','Oceanside','IE-OC');
 ALTER TABLE Station AUTO_INCREMENT = 1;
+INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES 
+    ('L.A. Union Station','Los Angeles','OC'),('Commerce','Commerce','OC'),('Norwalk/Santa Fe Springs','Norwalk','OC'),
+    ('Buena Park','Buena Park','OC'),('Fullerton','Fullerton','OC'),('Anaheim','Anaheim','OC'),
+    ('Orange','Orange','OC'),('Santa Ana','Santa Ana','OC'),('Tustin','Tustin','OC'),
+    ('Irvine','Irvine','OC'),('Laguna Niguel/Mission Viejo','Laguna Niguel'),('San Juan Capistrano','San Juan Capistrano','IE-OC'),
+    ('San Clemente','San Clemente','IE-OC'),('San Clemente Pier','San Clemente','IE-OC'),('Oceanside','Oceanside','IE-OC');
+ALTER TABLE Station AUTO_INCREMENT = 1;
