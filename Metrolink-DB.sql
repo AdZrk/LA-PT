@@ -14,6 +14,7 @@ CREATE TABLE Station
     NAME         VARCHAR2(30),
     LOC          VARCHAR2(20),
     LINE_ABBR    VARCHAR2(5),
+    EXPRESS      ENUM('Yes','No'),
     NUM_IN_LINE  INT AUTO_INCREMENT
 );
 
@@ -42,4 +43,12 @@ INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES
     ('L.A. Union Station','Los Angeles','Riv'),('Montebello/Commerce','Montebello','Riv'),('Industry','City of Industry','Riv'),
     ('Pomona-Downtown','Pomona','Riv'),('Ontario-East','Ontario','Riv'),('Jurupa Valley/Pedley','Jurupa Valley','Riv'),
     ('Riverside-Downtown','Riverside','Riv');
+ALTER TABLE Station AUTO_INCREMENT = 1;
+INSERT INTO Station (NAME,LOC,EXPRESS,LINE_ABBR) VALUES 
+    ('L.A. Union Station','Los Angeles','Yes','SB'),('Cal State L.A.','University Hills','Yes','SB'),('El Monte','El Monte','No','SB'),
+    ('Baldwin Park','Baldwin Park','No','SB'),('Covina','Covina','Yes','SB'),('Fairplex','La Verne','No','SB'),
+    ('Pomona-North','Pomona','No','SB'),('Claremont','Claremont','No','SB'),('Montclair','Montclair','Yes','SB'),
+    ('Upland','Upland','No','SB'),('Rancho Cucamonga','Rancho Cucamonga','Yes','SB'),('Auto Club Speedway','Fontana','No','SB'),
+    ('Fontana','Fontana','No','SB'),('Rialto','Rialto','No','SB'),('San Bernardino-Depot','San Bernardino','Yes','SB'),
+    ('San Bernardino-Downtown','San Bernardino','No','SB'),('Redlands-Downtown','Redlands','Yes','SB');
 ALTER TABLE Station AUTO_INCREMENT = 1;
