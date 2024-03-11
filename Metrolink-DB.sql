@@ -58,3 +58,9 @@ INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES
     ('Northridge','Northridge','VC'),('Van Nuys','Van Nuys','VC'),('Burbank Airport-South','Burbank','VC'),
     ('Downtown Burbank','Burbank','VC'),('Glendale','Glendale','VC'),('L.A. Union Station','Los Angeles','VC');
 ALTER TABLE Station AUTO_INCREMENT = 1;
+INSERT INTO Station (NAME,LOC,LINE_ABBR) VALUES 
+    ('L.A. Union Station','Los Angeles','91/PV'),('Norwalk/Santa Fe Springs','Norwalk','91/PV'),('Buena Park','Buena Park','91/PV'),
+    ('Fullerton','Fullerton','91/PV'),('Corona-West','Corona','91/PV'),('Corona-North Main','Corona','91/PV'),
+    ('Riverside-La Sierra','Riverside','91/PV'),('Riverside-Downtown','Riverside','91/PV'),('Riverside-Hunter Park/UCR','Riverside','91/PV'),
+    ('Moreno Valley/March Field','Moreno Valley','91/PV'),('Perris-Downtown','Perris','91/PV'),('Perris-South','Perris','91/PV');
+ALTER TABLE Station AUTO_INCREMENT = 1;
