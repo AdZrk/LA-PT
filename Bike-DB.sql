@@ -3,7 +3,8 @@ CREATE TABLE Station
     ST1      VARCHAR2(20),
     ST2      VARCHAR2(20),
     ALTNAME  VARCHAR2(30),
-    DOCKS    INT
+    DOCKS    INT,
+    ID       INT AUTO_INCREMENT
 );
 
 INSERT INTO Station (ST1,ST2,DOCKS) VALUES 
