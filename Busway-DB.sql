@@ -12,11 +12,12 @@ INSERT INTO Line VALUES ('Silver','J',910,29.5,10,12),('Silver','J',950,38,12,23
 
 CREATE TABLE Stop
 (
-  NAME         VARCHAR2(30),
-  LINE         VARCHAR2(1),
+  NAME         VARCHAR2(50),
   TYPE         ENUM('Sta','Str'),
   SERV         INT,
   DIR          ENUM('NB','SB'),
-  NUM_IN_LINE  INT
+  NUM_IN_LINE  INT AUTO_INCREMENT
 );
 
+INSERT INTO Stop VALUES 
+    
