@@ -35,3 +35,14 @@ INSERT INTO Stop (NAME,TYPE,SERV,DIR) VALUES
     ('Spring/1st','Str',910,'NB'),('Aliso/Los Angeles','Str',910,'NB'),('Union Station','Sta',910,'NB'),('Los Angeles General Medical Center','Sta',910,'NB'),
     ('Cal State LA','Sta',910,'NB'),('El Monte Station','Sta',910,'NB');
 ALTER TABLE Stop AUTO_INCREMENT = 1;
+INSERT INTO Stop (NAME,TYPE,SERV,DIR) VALUES 
+    ('El Monte Station','Sta',950,'SB'),('Cal State LA','Sta',950,'SB'),('Los Angeles General Medical Center','Sta',950,'SB'),('Union Station','Sta',950,'SB'),
+    ('Arcadia/Los Angeles','Str',950,'SB'),('Spring/1st','Str',950,'SB'),('1st/Hill','Str',950,'SB'),('Grand/3rd','Str',950,'SB'),
+    ('Grand/5th','Str',950,'SB'),('Flower/7th','Str',950,'SB'),('Flower/Olympic','Str',950,'SB'),
+    ('Flower/Pico','Str',950,'SB'),('Flower/Washington','Str',950,'SB'),('Flower/23rd','Str',950,'SB'),('Flower/Adams','Str',950,'SB'),
+    ('37th/USC','Sta',950,'SB'),('Slauson','Sta',950,'SB'),('Manchester','Sta',950,'SB'),('Harbor Freeway','Sta',950,'SB'),
+    ('Rosecrans','Sta',950,'SB'),('Harbor Gateway Transit Center','Sta',950,'SB'),('Figueroa/190th','Str',950,'SB'),('Carson','Sta',950,'SB'),
+    ('Pacific Coast Highway','Sta',950,'SB'),('Harbor Beacon Park & Ride','Str',950,'SB'),('Beacon/1st','Str',950,'SB'),('Pacific/1st','Str',950,'SB'),
+    ('Pacific/3rd','Str',950,'SB'),('Pacific/7th','Str',950,'SB'),('Pacific/11th','Str',950,'SB'),('Pacific/15th','Str',950,'SB'),
+    ('Pacific/17th','Str',950,'SB'),('Pacific/19th','Str',950,'SB'),('Pacific/21st','Str',950,'SB');
+ALTER TABLE Stop AUTO_INCREMENT = 1;
